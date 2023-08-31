@@ -23,7 +23,7 @@ overlay.addEventListener('click', closev);
 
 document.addEventListener('keydown', function (event) {
   console.log(event.key);
-  if (event.key === 'Escape' ||  &&
+  if (event.key === 'Escape'  &&
     !modal.classList.contains('hidden')
   ) {
     closev();
